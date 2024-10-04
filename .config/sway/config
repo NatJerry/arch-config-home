@@ -285,4 +285,7 @@ for_window [instance="steamwebhelper" class="steam" title="Steam 设置"] floati
 for_window [title="图片查看"] floating enable
 #for_window [class="qq";title="设置"] floating enable 
 
+# Another Monitor Setting
+output HDMI-A-2 pos 1920 0 res 1440 900
+
 include /etc/sway/config.d/*
